@@ -30,8 +30,15 @@
 }
 
 .attribution a {
-	color: var(--dark-raspberry);
+	color: var(--wenge-brown);
 	text-decoration: none;
+	font-weight: bold;
+}
+
+.attribution a:hover {
+	color: var(--nutmeg);
+	font-weight: 500;
+
 }
 
 * {
@@ -246,4 +253,5 @@ th, td {
 		border-radius: 0;
 		margin-bottom: 30px;
 	}
+	
 }
