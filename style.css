@@ -217,7 +217,12 @@ th, td {
 }
 
 /* Mobile Responsiveness */
-@media (max-width: 425px) {
+@media (max-width: 426px) {
+
+	.container {
+		padding: 25px;
+	}
+
 	.total,
 	.prep,
 	.cook {
